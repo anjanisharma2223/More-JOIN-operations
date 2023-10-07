@@ -1,0 +1,4 @@
+What is the id of the film 'Casablanca'
+
+select id from movie 
+where title='Casablanca'
