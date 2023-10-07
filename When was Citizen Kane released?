@@ -1,0 +1,4 @@
+Give year of 'Citizen Kane'.
+
+select yr from movie 
+where title='citizen kane'
