@@ -1,0 +1,6 @@
+Obtain the cast list for the film 'Alien'
+
+select name from actor 
+join casting on id=actorid 
+join movie on movie.id = movieid 
+where title='Alien'
