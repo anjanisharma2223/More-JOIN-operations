@@ -1,0 +1,4 @@
+Obtain the cast list for 'Casablanca'.
+
+select name from actor join casting on id=actorid 
+where movieid=27
