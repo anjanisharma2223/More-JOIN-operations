@@ -1,0 +1,6 @@
+List the films in which 'Harrison Ford' has appeared
+
+select title from movie 
+join casting on id=movieid 
+join actor on actor.id=actorid 
+where name='Harrison Ford'
