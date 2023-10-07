@@ -1,0 +1,4 @@
+What id number does the actor 'Glenn Close' have?
+
+select id from actor 
+where name='Glenn Close'
